@@ -1,0 +1,16 @@
+{
+  "parserOptions": {
+    "ecmaVersion": 2015
+  },
+  "env": {
+    "node": true
+  },
+  "ignorePatterns": [
+    "dist/",
+    "tmp/",
+    "node_modules/"
+  ],
+  "extends": [
+    "plugin:prettier/recommended"
+  ]
+}

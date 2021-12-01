@@ -1,0 +1,8 @@
+node_modules
+
+*.log
+/coverage
+/dist
+/config.json
+/.npmrc
+/tmp

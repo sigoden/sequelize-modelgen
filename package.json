@@ -1,0 +1,39 @@
+{
+  "name": "sequelize-modelgen",
+  "version": "0.1.0",
+  "description": "Generate sequelize models from sql",
+  "bin": {
+    "modelgen": "index.js"
+  },
+  "keywords": [
+    "sequelize",
+    "modelgen"
+  ],
+  "license": "MIT",
+  "author": "Sigoden Hwang <sigoden@gmail.com>",
+  "homepage": "https://github.com/sigoden/sequelize-modelgen",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sigoden/sequelize-modelgen.git"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@types/jest": "^27.0.3",
+    "eslint": "^8.3.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "jest": "^27.3.1",
+    "prettier": "^2.5.0",
+    "sequelize": "^5.22.4"
+  },
+  "dependencies": {
+    "sql-ddl-to-json-schema": "^4.0.6",
+    "yargs": "^17.3.0"
+  }
+}
